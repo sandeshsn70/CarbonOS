@@ -1,0 +1,8 @@
+activity_type,fuel_type,value,emission
+TRANSPORT,diesel,50,134
+TRANSPORT,diesel,100,268
+TRANSPORT,petrol,100,231
+ENERGY,electricity,200,164
+ENERGY,electricity,300,246
+TRANSPORT,diesel,150,402
+TRANSPORT,petrol,150,346
