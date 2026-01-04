@@ -1,12 +1,14 @@
 # 🌍 CarbonOS 🌱  
 ## AI-based Carbon Emission Intelligence Platform
 
+**Developed by:** **Sandesh**  
+**Role:** *Computer Engineer*  
+
 CarbonOS is a **full-stack AI-powered Carbon Intelligence Platform** that calculates, predicts, and analyzes carbon emissions using **rule-based logic** and **machine learning models**.
 
 It follows a **microservices architecture** built with **React, Spring Boot, and Flask (ML)**.
 
 ---
-
 ## 🚀 Key Features
 
 - ✅ Rule-based carbon emission calculation (**Spring Boot**)
