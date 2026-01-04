@@ -90,7 +90,7 @@ cd carbonos-backend
 📍 Runs on http://localhost:8081
 ```
 
-###2️⃣ Start Flask ML Service
+### 2️⃣ Start Flask ML Service
 ```bash
 cd carbonos-ai
 python app.py
@@ -98,7 +98,7 @@ python app.py
 📍 Runs on http://localhost:5000
 ```
 
-###3️⃣ Start React Frontend
+### 3️⃣ Start React Frontend
 ```bash
 cd carbonos-frontend
 npm install
@@ -106,7 +106,7 @@ npm start
 
 📍 Runs on http://localhost:3000
 ```
-###🔄 Application Flow
+### 🔄 Application Flow
 
 - User enters activity value in UI
 
@@ -120,15 +120,15 @@ npm start
 
 - UI displays both results
 
-##📊 Sample Output
+## 📊 Sample Output
 
 - Actual Emission (Rule-based)
 
 - Predicted Emission (ML)
 
 - Displayed together for comparison.
-
-##🌱 Why This Project Matters
+ 
+## 🌱 Why This Project Matters
 
 ✔️ Real-world AI + Backend + Frontend integration
 
