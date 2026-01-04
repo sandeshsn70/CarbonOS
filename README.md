@@ -1,76 +1,61 @@
-🌍 CarbonOS 🌱
-AI-based Carbon Emission Intelligence Platform
+# 🌍 CarbonOS 🌱  
+## AI-based Carbon Emission Intelligence Platform
 
-CarbonOS is a full-stack AI-powered Carbon Intelligence Platform that calculates, predicts, and analyzes carbon emissions using rule-based logic and machine learning models.
-It follows a microservices architecture built with React, Spring Boot, and Flask (ML).
+CarbonOS is a **full-stack AI-powered Carbon Intelligence Platform** that calculates, predicts, and analyzes carbon emissions using **rule-based logic** and **machine learning models**.
 
-🚀 Key Features
+It follows a **microservices architecture** built with **React, Spring Boot, and Flask (ML)**.
 
-✅ Rule-based carbon emission calculation (Spring Boot)
+---
 
-🤖 Machine Learning–based emission prediction (Flask + Scikit-learn)
+## 🚀 Key Features
 
-🔗 Microservices architecture using REST APIs
+- ✅ Rule-based carbon emission calculation (**Spring Boot**)
+- 🤖 Machine Learning–based emission prediction (**Flask + Scikit-learn**)
+- 🔗 Microservices architecture using **REST APIs**
+- 🖥️ React-based frontend dashboard
+- 📊 Real-time emission analysis
+- 🗄️ H2 in-memory database
+- 🔐 CORS-enabled secure communication
 
-🖥️ React-based frontend dashboard
+---
 
-📊 Real-time emission analysis
+## 🏗️ System Architecture
 
-🗄️ H2 in-memory database
-
-🔐 CORS-enabled secure communication
-
-🏗️ System Architecture
 React Frontend (UI)
-        ↓
+↓
 Spring Boot Backend (Rule Engine + Database)
-        ↓
+↓
 Flask ML Service (Prediction Engine)
 
-🛠️ Technology Stack
-Frontend
 
-React.js
+---
 
-JavaScript
+## 🛠️ Technology Stack
 
-HTML, CSS
+### Frontend
+- React.js
+- JavaScript
+- HTML, CSS
 
-Fetch API
+### Backend
+- Java Spring Boot
+- Spring Data JPA
+- REST APIs
+- H2 Database
 
-Backend
+### Machine Learning
+- Python
+- Flask
+- Scikit-learn
+- Pandas
+- NumPy
+- Linear Regression
 
-Java Spring Boot
+---
 
-Spring Data JPA
+## 📁 Project Structure
 
-REST APIs
-
-H2 Database
-
-AI / Machine Learning
-
-Python
-
-Flask
-
-Scikit-learn
-
-Pandas
-
-NumPy
-
-Linear Regression
-
-Tools
-
-Maven
-
-Node.js & npm
-
-Git & GitHub
-
-📁 Project Folder Structure
+```bash
 CarbonOS/
 │
 ├── carbonos-backend/
@@ -89,21 +74,25 @@ CarbonOS/
 │   └── package.json
 │
 └── README.md
+```
 
-⚙️ How to Run the Project
-1️⃣ Start Spring Boot Backend
+
+---
+
+## ⚙️ How to Run the Project
+
+### 1️⃣ Start Spring Boot Backend
+```bash
 cd carbonos-backend
 ./mvnw spring-boot:run
-
-
-Runs at: http://localhost:8081
+📍 Runs on http://localhost:8081
 
 2️⃣ Start Flask ML Service
 cd carbonos-ai
 python app.py
 
 
-Runs at: http://localhost:5000
+📍 Runs on http://localhost:5000
 
 3️⃣ Start React Frontend
 cd carbonos-frontend
@@ -111,38 +100,36 @@ npm install
 npm start
 
 
-Runs at: http://localhost:3000
+📍 Runs on http://localhost:3000
 
 🔄 Application Flow
 
-User enters activity data in the UI
+User enters activity value in UI
 
-React sends request to Spring Boot backend
+React calls Spring Boot API
 
-Spring Boot calculates Actual Emission (Rule-based)
+Spring Boot calculates actual emission (rule-based)
 
-Spring Boot calls Flask ML service
+Spring Boot calls Flask ML API
 
-Flask returns Predicted Emission (ML)
+Flask returns predicted emission (ML)
 
 UI displays both results
 
-📤 Sample Output
+📊 Sample Output
 
 Actual Emission (Rule-based)
 
 Predicted Emission (ML)
 
-Displayed together for comparison and analysis.
+Displayed together for comparison.
 
-🌱 Industry Relevance
+🌱 Why This Project Matters
 
-✔️ Microservices Architecture
+✔️ Real-world AI + Backend + Frontend integration
 
-✔️ AI served via REST APIs
+✔️ Clean microservices architecture
 
-✔️ Full Stack + ML integration
-
-✔️ Climate-Tech / ESG domain
+✔️ Climate-tech & ESG domain relevance
 
 ✔️ Enterprise-ready system design
