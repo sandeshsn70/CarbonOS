@@ -2,7 +2,7 @@
 AI-based Carbon Emission Intelligence Platform
 
 CarbonOS is a full-stack AI-powered Carbon Intelligence Platform that calculates, predicts, and analyzes carbon emissions using rule-based logic and machine learning models.
-It follows a microservices architecture built with React, Spring Boot, and Flask ML services.
+It follows a microservices architecture built with React, Spring Boot, and Flask (ML).
 
 🚀 Key Features
 
@@ -16,14 +16,14 @@ It follows a microservices architecture built with React, Spring Boot, and Flask
 
 📊 Real-time emission analysis
 
-🗄️ In-memory H2 database
+🗄️ H2 in-memory database
 
 🔐 CORS-enabled secure communication
 
 🏗️ System Architecture
 React Frontend (UI)
         ↓
-Spring Boot Backend (Rule Engine + DB)
+Spring Boot Backend (Rule Engine + Database)
         ↓
 Flask ML Service (Prediction Engine)
 
@@ -48,7 +48,7 @@ REST APIs
 
 H2 Database
 
-AI / ML
+AI / Machine Learning
 
 Python
 
@@ -96,14 +96,14 @@ cd carbonos-backend
 ./mvnw spring-boot:run
 
 
-📍 Runs on http://localhost:8081
+Runs at: http://localhost:8081
 
 2️⃣ Start Flask ML Service
 cd carbonos-ai
 python app.py
 
 
-📍 Runs on http://localhost:5000
+Runs at: http://localhost:5000
 
 3️⃣ Start React Frontend
 cd carbonos-frontend
@@ -111,7 +111,7 @@ npm install
 npm start
 
 
-📍 Runs on http://localhost:3000
+Runs at: http://localhost:3000
 
 🔄 Application Flow
 
@@ -119,28 +119,30 @@ User enters activity data in the UI
 
 React sends request to Spring Boot backend
 
-Spring Boot calculates rule-based emission
+Spring Boot calculates Actual Emission (Rule-based)
 
 Spring Boot calls Flask ML service
 
-Flask returns predicted emission
+Flask returns Predicted Emission (ML)
 
 UI displays both results
 
 📤 Sample Output
 
-Actual Emission (Rule-based) – Calculated using emission factors
+Actual Emission (Rule-based)
 
-Predicted Emission (ML) – Generated using trained ML model
+Predicted Emission (ML)
+
+Displayed together for comparison and analysis.
 
 🌱 Industry Relevance
 
-Microservices Architecture
+✔️ Microservices Architecture
 
-AI served via REST APIs
+✔️ AI served via REST APIs
 
-Full Stack + ML integration
+✔️ Full Stack + ML integration
 
-Climate-Tech / ESG domain
+✔️ Climate-Tech / ESG domain
 
-Scalable enterprise-ready design
+✔️ Enterprise-ready system design
